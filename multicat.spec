@@ -7,7 +7,7 @@ License:	GPL v2+
 Group:		Networking
 Source0:	http://download.videolan.org/multicat/2.0/%{name}-%{version}.tar.bz2
 # Source0-md5:	3aaa226a421c378c2ede0c8db8fd609c
-URL:		http://www.videolan.org/projects/dvblast.html
+URL:		http://www.videolan.org/projects/multicat.html
 BuildRequires:	bitstream
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
