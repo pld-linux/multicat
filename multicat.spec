@@ -1,12 +1,12 @@
 Summary:	Tools to easily and efficiently manipulate multicast streams, incluging MPEG-2 TS
 Summary(pl.UTF-8):	Narzędzia do łatwego i wydajnego operowania na strumieniach multicastowych, w tym MPEG-2 TS
 Name:		multicat
-Version:	2.2
+Version:	2.3
 Release:	1
 License:	GPL v2+
 Group:		Networking
 Source0:	http://download.videolan.org/multicat/%{version}/%{name}-%{version}.tar.bz2
-# Source0-md5:	91bd35aa5aa94c370664276bd5af6f48
+# Source0-md5:	cf4e4bc07d72eda110050d755db14620
 URL:		http://www.videolan.org/projects/multicat.html
 BuildRequires:	bitstream
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -49,6 +49,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/lasts
 %attr(755,root,root) %{_bindir}/multicat
 %attr(755,root,root) %{_bindir}/multicat_validate
+%attr(755,root,root) %{_bindir}/multilive
 %attr(755,root,root) %{_bindir}/offsets
 %attr(755,root,root) %{_bindir}/reordertp
 %{_mandir}/man1/aggregartp.1*
